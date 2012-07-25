@@ -29,7 +29,7 @@ Now, to pull in the latest updates from the original project repository, run:
 
 	$ git pull upstream master 
 	
-This pulls in any changes from the original project repository's master branch.  You can now be sure that you have the most up-to-date version of the code base and can begin work.  Of course, you may find that you now have (conflicts to resolve)(http://www.kernel.org/pub/software/scm/git/docs/v1.7.3/user-manual.html#resolving-a-merge).
+This pulls in any changes from the original project repository's master branch.  You can now be sure that you have the most up-to-date version of the code base and can begin work.  Of course, you may find that you now have [conflicts to resolve](http://www.kernel.org/pub/software/scm/git/docs/v1.7.3/user-manual.html#resolving-a-merge).
 
 Working with your local git repository 
 --------------------------------------

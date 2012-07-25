@@ -97,7 +97,7 @@ The index comprises three areas (in the order they appear):
 
 The areas displayed in the index depend on the state of your repository when you run git status:
 
-* files in your repository that are untracked (i.e., included in your .gitignore file - see below for more info), will be listed in the Untracked files area  
+* files in your repository that are untracked (i.e., files that you have not yet added using 'git add' or those included in your .gitignore file - see below for more info), will be listed in the Untracked files area  
 
 * tracked files that you have edited but not yet staged for commit are listed in the Changes not staged for commit area
 

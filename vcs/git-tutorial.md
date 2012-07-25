@@ -47,7 +47,7 @@ Issuing the pull command to retrieve changes from a remote is a combination of t
 
 	$ git fetch remote-name
 	
-Make sure you are sitting on the branch you want merge the fetched changes into (see below for instructions on how to check which branch you are on and how to change and create branches) and run:
+Make sure you are sitting on the branch you want merge the fetched changes into (see below for instructions on how to check which branch you are on and how to switch and create branches) and run:
 
 	$ git merge remote-name/branch-name
 	
@@ -67,7 +67,7 @@ To see the list of branches with the short hash and message of the last commit f
 
 	$ git branch --verbose
 
-To change to a different branch, enter: 
+To switch to a different branch, enter: 
 
 	$ git checkout branch-name
 	

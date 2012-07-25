@@ -151,9 +151,7 @@ Delete remote branches (branches on Github or Bitbucket):
 
 	$ git push remote-name :branch-name
 	
-The above command tells git to replace the remote branch with 'nothing', effectively deleting the remote branch.
-
-To tell git to ignore a file that is not get tracked, create a file in your project root named .gitignore and simply add the path to the file, relative to your project root.  Each file path should occupy a new line in the .gitignore file.
+To tell git to ignore a file that is not yet tracked, create a file in your project root named .gitignore and simply add the path to the file, relative to your project root.  Each file path should occupy a new line in the .gitignore file.
 
 To tell git to start ignoring a file that is already being tracked, add the file path to .gitignore but also run the following command to remove the file git's cache:
 

@@ -135,7 +135,7 @@ Push commits on your branch to origin (your fork):
 
 Once you have successfully pushed your commits to your fork, you can go online and issue a pull request if you want your changes to be considered for inclusion in the original repository.  
  
-If the main project lead requests further changes to your pull request before accepting, edit your branch as required and re-trace the steps above to add, commit and push ﬁles back to your fork, then update your pull request. 
+If the project maintainer requests changes to your pull request before accepting, edit your branch as required and re-trace the steps above to add, commit and push ﬁles back to your fork, then update your pull request. 
 
 ##House-keeping 
 

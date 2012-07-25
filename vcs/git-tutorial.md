@@ -117,7 +117,9 @@ If, on the other hand, you want to commit all the edited files in one commit, an
 
 	$ git commit -a -m 'My interesting and informative commit message'
 	
-You can actually group -a and -m into one: -am
+You can actually group -a and -m into one:
+
+	$ git commit -am 'My interesting and informative commit message'
 
 Bypassing the staging area can save you time, but beware, it is all to easy to commit a file by mistake using this method - for example, a database config file that holds private passwords.  Adding files individually reduces this risk somewhat as it forces you to pay attention to the files you are including in the commit.
 

@@ -109,6 +109,18 @@ To stage a file for commit, enter:
 	
 You can stage files one by one in this manner if, for instance, you do not want to commit all of the edited files in one go (you may want to split them into separate commits).  
 
+If you have staged a file by mistake, you can remove it from the staging area with the following command:
+
+	$ git reset HEAD path/to/file
+	
+This returns the edited file to the Changes not staged for commit area of the index (run git status again to verify).
+
+If you want to revert an edited file to its original state (as of the previous commit), enter:
+
+	$ git checkout -- path/to/file
+	
+This rewinds all changes made to the file since the previous commit and removes the file from the Changes not staged for comment area of the index.
+
 Once you have added all the files you want to include in your next commit, enter:
 
 	$ git commit -m 'My interesting and informative commit message'

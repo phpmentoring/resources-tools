@@ -39,7 +39,7 @@ From the command line, navigate to your git project root:
 	$ cd /path/to/local/project/root 
 
 
-Make sure you have the latest code from original project repo: 
+Make sure you have the latest code from the original project repository: 
 
 	$ git pull upstream master
 	

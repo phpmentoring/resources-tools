@@ -1,7 +1,7 @@
 Working with Git (the basics)
 -----------------------------
 
-This tutorial covers the basic commands for working with Git at the command line.  GUI tools are available, but are not covered here.  Some links are provided at the end of the article.
+This tutorial covers the basic commands for working with Git at the command line.  GUI tools are available, but are not covered here.
 
 ##Setting up 
 
@@ -158,7 +158,5 @@ To tell git to start ignoring a file that is already being tracked, add the file
 	$ git rm --cached path/to/file
 		
 You can add .gitignore files to individual directories within your repository specifying files to ignore under that particular directory, but you can achieve the same outcome with a single .gitignore file in your project root.
-
-
 
 

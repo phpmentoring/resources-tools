@@ -132,7 +132,7 @@ You can actually group -a and -m into one:
 
 Bypassing the staging area can save you time, but beware, it is all to easy to commit a file by mistake using this method - for example, a database config file that holds private passwords.  Adding files individually reduces this risk somewhat as it forces you to pay attention to the files you are including in the commit.
 
-Eventually, you'll want to push your commit (or bunch of commits) to origin (your fork).  Before doing this, it might be a good time to pull from upstream once more.  Depending on your workflow, you may want to merge your development branch back into your master branch before pushing.  Workflows are outside the scope of this tutorial, but the flexibility of git makes almost any workflow possible and it is definitely a topic worth looking into.
+Eventually, you'll want to push your commit (or bunch of commits) to origin (your fork).  Before doing this, it might be a good time to pull from upstream once more.  Depending on your workflow, you may want to merge your development branch back into your master branch before pushing.  Workflows are outside the scope of this tutorial, but the flexibility of git makes almost any workflow possible and it is definitely a topic [worth looking into](http://git-scm.com/book/en/Git-Branching-Branching-Workflows).
 
 If at this point you find you have conflicts, you can open each file and resolve the conflict manually.  If you are already familiar with version control, the characters git adds to conflicted files will be relatively easy to decipher.  [See here](http://www.kernel.org/pub/software/scm/git/docs/v1.7.3/user-manual.html#resolving-a-merge) for detailed instructions on how to resolve merge commits.  
 

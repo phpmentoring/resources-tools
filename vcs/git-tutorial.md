@@ -19,17 +19,12 @@ At this stage, you have successfully cloned your fork to your computer and git h
 
 While you're busy working away on your fork, you'll probably want to keep it in-sync with  the original project repository (the one you forked).  For instance, if you're contributing a bug-fix or new feature to an open source project, you'll want to sync your local repository with the main project before pushing it to your fork and opening a pull request.  This important step gives you an opportunity to resolve any conflicts that your code may introduce and has the added benefit of keeping you in the project maintainer's good books.
 
-To pull in the latest changes from the original project repository, you need to add it as a remote.  Remember above that git automatically added a remote reference to your fork called 'origin' when you cloned it your computer.  We need to manually add the remote to the original project repository, like so: 
+To pull in the latest changes from the original project repository, you need to add it as a remote.  Remember above that git automatically added a remote reference to your fork called 'origin' when you cloned it your computer.  We need to manually add the remote to the original project repository: 
 
 	$ git remote add upstream https://url.to.the.main/repository
 
 Here, we're naming the remote reference to the original project 'upstream'.  You can substitute this name for anything you like, upstream is just a widely used term for the original project.
 
-Now, to pull in the latest updates from the original project repository, run: 
-
-	$ git pull upstream master 
-	
-This pulls in any changes from the original project repository's master branch.  You can now be sure that you have the most up-to-date version of the code base and can begin work.
 
 Working with your local git repository 
 --------------------------------------
@@ -43,7 +38,7 @@ Make sure you have the latest code from the original project repository:
 
 	$ git pull upstream master
 	
-Issuing the pull command to retrieve changes from a remote is a combination of two commands that can be called separately: fetch and merge.  By running the pull command, you fetch any changes and merge them straight into your repository's branches.  If you prefer only to update a specific local branch with changes from a remote repository, opt instead for fetch and merge:
+This pulls in any changes from the original project repository's master branch (you can substitute the word master for another existing branch name if you like).  Issuing the pull command to retrieve changes from a remote is a combination of two commands that can be called separately: fetch and merge.  By running the pull command, you fetch any changes and merge them straight into your repository's branches.  If you prefer only to update a specific local branch with changes from a remote repository, opt instead for fetch and merge:
 
 	$ git fetch remote-name
 	

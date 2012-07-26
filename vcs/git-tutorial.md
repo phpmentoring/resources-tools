@@ -44,7 +44,7 @@ Issuing the pull command to retrieve changes from a remote is a combination of t
 
 	$ git fetch remote-name
 	
-Make sure you are sitting on the branch you want merge the fetched changes into (see below for instructions on how to check which branch you are on and how to switch and create branches) and run:
+Make sure you are sitting on the branch you want to merge the fetched changes into (see below for instructions on how to check which branch you are on and how to switch and create branches) and run:
 
 	$ git merge remote-name/branch-name
 	

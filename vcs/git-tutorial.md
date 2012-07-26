@@ -29,7 +29,7 @@ Here, we're naming the remote reference to the original project 'upstream'.  You
 Working with your local git repository 
 --------------------------------------
 
-From the command line, navigate to your git project root: 
+From the command line, navigate to your git project root if you're not already there: 
 
 	$ cd /path/to/local/project/root 
 

@@ -38,7 +38,9 @@ Make sure you have the latest code from the original project repository:
 
 	$ git pull upstream master
 	
-This pulls in any changes from the original project repository's master branch (you can substitute the word master for another existing branch name if you like).  Issuing the pull command to retrieve changes from a remote is a combination of two commands that can be called separately: fetch and merge.  By running the pull command, you fetch any changes and merge them straight into your repository's branches.  If you prefer only to update a specific local branch with changes from a remote repository, opt instead for fetch and merge:
+This pulls in any changes from the original project repository's master branch (you can substitute the word master for another existing branch name if you like).  
+
+Issuing the pull command to retrieve changes from a remote is a combination of two commands that can be called separately: fetch and merge.  By running the pull command, you fetch any changes and merge them straight into your repository's branches.  If you prefer only to update a specific local branch with changes from a remote repository, opt instead for fetch and merge:
 
 	$ git fetch remote-name
 	
